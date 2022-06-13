@@ -1,0 +1,163 @@
+html, body{
+    font-size: 1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+#index-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;
+}
+
+
+/*-- nav-bar --*/
+
+.navbar{
+    justify-content: space-around;
+}
+
+
+
+.navbar-brand{
+    text-transform: uppercase;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-family: "melancholy";
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: "melancholy";
+    text-align: center;
+}
+
+.collapse a:hover{
+    color: yellow;
+}
+
+
+/*-- section --*/
+.container{
+    position: relative;
+
+}
+
+.section-container{
+    
+    padding: 1em;
+    width: 85%;
+    height: 100%;
+    border-radius: 4em;
+    margin: 20rem auto 9em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+}
+
+.left-Section{
+    color: white;
+    margin: 2em;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.sect-Heading{
+    font-size: 2.5em;
+    text-shadow: 0 0 0.8em rgb(255, 255, 255);
+    text-align: center;
+    font-family: "kawashiro";
+}
+
+.sect-description{
+    margin-top: 1em;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+#disclaimer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: red;
+}
+
+.right-Section{
+    
+    width: 20vw;
+    margin: 0;
+    display: flex;
+    flex-direction: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption{
+    width: 15vw;
+}
+
+.img-caption{
+    color: white;
+    margin-top: 0.5em;
+    font-size: 1.1em;
+}
+
+/*-- more info --*/
+
+.about{
+    margin-top: 18rem;
+}
+
+.shop-merch{
+    height: 20px;
+}
+
+.about-container{
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    border-radius: 2em;
+}
+
+.know-characters{
+    padding-left: 2em;
+}
+
+/*-- end more info --*/
+
+/*-- responsive --*/
+
+@media only screen and (max-width: 767px){
+    .navbar{
+        text-align: center;
+    }
+    .background-container{
+        width: 100vw;
+        height: 100vh;
+    }
+    .card {
+        display: block !important;
+        width: 25rem !important;
+        flex:none !important;
+      }
+}
+
+
+
+
+

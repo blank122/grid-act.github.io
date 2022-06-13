@@ -1,0 +1,140 @@
+html, body{
+    font-size: 1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+
+/*-- Navbar --*/
+.navbar{
+    justify-content: space-around;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-family: "melancholy";
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: "melancholy";
+    text-align: center;
+}
+
+.nav-item:hover{
+    color: red;
+
+}
+
+.collapse a:hover{
+    color: yellow;
+}
+
+
+/*-- End Navbar --*/
+
+
+/*--  Slider  --*/
+.carousel-item{
+
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat scroll center;
+    background-size: cover;
+}
+
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;  
+    background: rgba(0, 0, 0, 0.7);  
+}
+
+.carousel-caption{
+    bottom: 10em;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-top: 1em;
+
+}
+
+.carousel-caption p{
+    font-size: 1.2em;
+
+}
+
+p, h5{
+    font-family: "izayoi";
+
+}
+.slider-btn{
+    margin: 2em;
+}
+.slider-btn .btn{
+    margin: 1;
+    padding: 0;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    border-radius: 0.8em;
+    box-shadow: 0 0 1em black;
+
+}
+
+
+.txt{
+    color: white;
+    text-decoration: none;
+    font-family: "izayoi";
+
+}
+
+.txt:hover{
+    color: red;
+
+}
+.w-100{
+    width: 750px;
+    height: 750px;
+    padding: 5em;
+}
+
+/*-- End  Slider  --*/
+
+/*-- Responsive  --*/
+@media only screen and (max-width: 767px){
+    .navbar{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 10em;
+    }
+    .carousel-caption h5{
+        font-size: 1em;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 0.8em;
+    }
+}

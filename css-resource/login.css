@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#A6E3E9;
+
+}
+
+.row{
+    margin-top: 5em;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69, 69, 69);
+    border-radius: 2em;
+    width: 70%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 2em;
+    padding-right: 2em;
+}
+
+#nakama{
+    
+    font-family:"melancholy";
+    justify-self: center;
+}
+
+h3, p, #nakama, label{
+    color:rgb(221, 221, 221);
+}
+
+.sign, .register, .forgot{
+    text-decoration: none;
+    color:rgb(221, 221, 221);
+
+}
+
+p{
+    font-family: "izayoi";
+}
+
+.sign:hover, .register:hover, .forgot:hover{
+    color: red;
+}
+
+.btn-1{
+    background: black;
+    border-radius: 0.5em;
+    width: 100%;
+}
+
+label{
+    font-family: "melancholy";
+}

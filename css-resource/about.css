@@ -1,0 +1,50 @@
+html, body{
+    font-size: 1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}
+
+
+section .about{
+    overflow: hidden;
+}
+
+.hr{
+    color: red;
+    height: 2em;
+    border-width: 3px;
+}
+h2{
+    font: 2em;
+}
+
+/**-- navbar --**/
+.navbar{
+    justify-content: space-around;
+}
+
+
+
+.navbar-brand{
+    text-transform: uppercase;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-family: "melancholy";
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: "melancholy";
+    text-align: center;
+}
+
+
+.collapse a:hover{
+    color: yellow;
+}

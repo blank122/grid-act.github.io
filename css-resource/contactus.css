@@ -1,0 +1,80 @@
+@import url(/css-resource/index.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "izayoi";
+}
+
+.form-group{
+    margin-top: 1em;
+    padding: 0.8em;
+    
+}
+
+.section-bg{
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.custom-input, .text-custom{
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    
+}
+::placeholder{
+    color: black !important;
+    margin-left: 15px !important;
+    font-weight: 500;
+}
+
+
+::placeholder:hover{
+    font-weight: 700;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.text-custom:focus{
+    background: rgba(0, 0, 0, 0.7);  
+    color: white;
+}
+
+.fa, .fas{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+
+
+.form-control{
+    border-radius: 0.5em;
+}
+.contact-us{
+    margin-top: 100px;
+}
+
+.btn-1{
+    color: black;
+    font-weight: bold;
+    width: 100px;
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 2px;
+}
