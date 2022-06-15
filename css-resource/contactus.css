@@ -1,4 +1,4 @@
-@import url(/css-resource/index.css);
+@import url(./css-resource/index.css);
 
 
 *{
@@ -15,7 +15,7 @@
 }
 
 .section-bg{
-    background-image: url(/img/bg.jpg);
+    background-image: url(./img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
